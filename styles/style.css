@@ -1,0 +1,51 @@
+body{
+    background-color: beige;
+}
+
+@media screen and (max-width: 700px) {
+body{
+    
+}
+
+}
+    .conteneur
+    {
+        display: flex;
+        align-items: center;    
+        background: pink;
+        width: 600px;
+        height: 600px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
+.element{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18;
+    border: 5px solid red;
+    text-align: center;
+    margin:5px;
+    width: 150px;
+    height:150px;
+}
+.el1
+{
+
+}
+.el2{
+
+}
+
+.el3
+{
+    color: blue;
+}
+p{
+    position: relative;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
